@@ -107,3 +107,8 @@ body,
 .music-player .controls button:hover {
   color: #fff;
 }
+
+span:hover {
+  color: rgb(147, 147, 147);
+  cursor: pointer;
+}
