@@ -1,10 +1,69 @@
+* {
+  box-sizing: border-box;
+  color: #fff;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  min-width: 100vh;
+  background-color: #1f1f1f;
+}
+
+.basic-navbar-nav {
+  order: 1;
+}
+.navbar-toggler-icon {
+  background-color: rgb(179, 8, 8);
+  border-radius: 5px;
+}
+
+.main {
+  background-color: #1f1f1f;
+}
+
+.main img {
+  width: 100%;
+}
+
+.singleNews {
+  width: 49% !important;
+}
+
+.radiosParag {
+  color: #ababab !important;
+  font-size: 0.8em;
+}
+
+.radiosParag2 {
+  color: #e6e6e6 !important;
+}
+
+.myCard,
+.myCard2 {
+  border: none !important;
+}
+
+@media screen and (max-width: 991px) {
+  .myCard2 {
+    display: none !important;
+  }
+}
+/* -- -- -- -- */
+
 .music-player {
   background-color: #333;
   border-radius: 10px;
   padding: 10px;
+  width: 90%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  bottom: 0;
 }
 
 .music-player .track-icon {

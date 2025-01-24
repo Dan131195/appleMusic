@@ -7,7 +7,7 @@ import {
 
 const Player = () => {
   return (
-    <>
+    <div className="d-flex justify-content-center">
       <Container className="music-player">
         <div className="track-icon">
           <MusicNoteBeamed />
@@ -21,7 +21,7 @@ const Player = () => {
           </button>
         </div>
       </Container>
-    </>
+    </div>
   );
 };
 
