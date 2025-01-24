@@ -10,10 +10,7 @@ const MyNavbar = () => {
             className="w-25 border-0"
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#link">Link</Nav.Link>
-            </Nav>
+            <Nav className="me-auto"></Nav>
           </Navbar.Collapse>
           <Navbar.Brand className="logo w-50 text-center m-0">
             <svg

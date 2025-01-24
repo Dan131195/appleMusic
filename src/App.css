@@ -8,13 +8,9 @@ body,
 #root {
   margin: 0;
   padding: 0;
-  min-width: 100vh;
-  background-color: #1f1f1f;
+  background-color: #1f1f1f !important;
 }
 
-.basic-navbar-nav {
-  order: 1;
-}
 .navbar-toggler-icon {
   background-color: rgb(179, 8, 8);
   border-radius: 5px;
@@ -46,11 +42,27 @@ body,
   border: none !important;
 }
 
+.myCard:hover,
+.myCard2:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 991px) {
   .myCard2 {
     display: none !important;
   }
 }
+
+.releasesParag {
+  overflow: hidden;
+  display: -webkit-box;
+  line-clamp: 1;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
 /* -- -- -- -- */
 
 .music-player {
@@ -63,7 +75,7 @@ body,
   align-items: center;
   justify-content: space-between;
   position: sticky;
-  bottom: 0;
+  bottom: 15px;
 }
 
 .music-player .track-icon {
