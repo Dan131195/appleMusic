@@ -1,9 +1,9 @@
-// import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 
-const myNav = () => {
+const MyNavbar = () => {
   return (
     <>
-      {/* <Navbar expand="lg" className="bg-body-tertiary">
+      <Navbar bg="dark" data-bs-theme="dark">
         <Container>
           <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -14,9 +14,9 @@ const myNav = () => {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar> */}
+      </Navbar>
     </>
   );
 };
 
-export default myNav;
+export default MyNavbar;
