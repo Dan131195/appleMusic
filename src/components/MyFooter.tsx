@@ -16,15 +16,15 @@ const MyFooter = () => {
         <span className="text-secondary ms-2">Tutti i diritti riservati</span>
       </div>
       <div className="my-3">
-        <span>Condizioni dei servizi internet</span>
+        <span className="mySpan">Condizioni dei servizi internet</span>
         <span className="mx-4 text-secondary">|</span>
-        <span>Apple Music e privacy</span>
+        <span className="mySpan">Apple Music e privacy</span>
         <span className="mx-4 text-secondary">|</span>
-        <span> Avviso sui cookie</span>
+        <span className="mySpan"> Avviso sui cookie</span>
         <span className="mx-4 text-secondary">|</span>
-        <span>Supporto</span>
+        <span className="mySpan">Supporto</span>
         <span className="mx-4 text-secondary">|</span>
-        <span>Feedback</span>
+        <span className="mySpan">Feedback</span>
       </div>
     </Container>
   );

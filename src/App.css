@@ -108,7 +108,7 @@ body,
   color: #fff;
 }
 
-span:hover {
+.mySpan:hover {
   color: rgb(147, 147, 147);
   cursor: pointer;
 }
